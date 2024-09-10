@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,viewport-fit=cover,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>웹적립시스템</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content-wrap">
+            <div class="top">
+                <div class="left w-6">
+                    <div class="qr-code">
+                        <h2>쿠폰 QR코드 스캔</h2>
+                        <div class="qr-code-box">
+                            <div class="qr-code-scan bg-gray"></div>
+                            <div class="qr-code-term">
+                                <p>개인정보 이용 및 약관에 동의하시면, QR코드를 인식하거나, 전화번호를 입력하시고 확인을 눌러주세요. <a href="#">(개인정보 이용약관 전문
+                                        보기)</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right w-4 bg-gray p-0">
+                    <div class="coupon">
+                        <h3>현 가맹점에서는 사용이 <span class="blue">가능</span> 합니다.</h3>
+                        <div class="product-list">
+                            <ul>
+                                <li>
+                                    <div class="product">
+                                        <img src="img/product.png" alt="">
+                                        <h4>보타닉 바디워시</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product">
+                                        <img src="img/product.png" alt="">
+                                        <h4>보타닉 바디워시</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product">
+                                        <img src="img/product.png" alt="">
+                                        <h4>보타닉 바디워시</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product">
+                                        <img src="img/product.png" alt="">
+                                        <h4>보타닉 바디워시</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>상품 선택 후 확인 버튼을 눌러 사용하세요.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li class="horizontal">
+                        <div class="left horizontal g-4">
+                            <img src="img/logo.svg" alt="" class="bot-logo">
+                            <h2>디지털미디어시티역 1호점</h2>
+                        </div>
+                        <div class="right">
+                            <div class="time-group">
+                                <h2>오후 6:12</h2>
+                                <p>2023년 12월 12일</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <dl>
+                                <dt><img src="img/ico/i-point-search.svg" alt=""></dt>
+                                <dd>확인</dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- S : couponModal  -->
+    <div id="couponModal" class="modal-wrap coupon-modal">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">쿠폰사용 안내</h2>
+                    <button class="btn-modal-close">
+                        <img src="img/ico/i-x.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2>상품이 선택되지 않았습니다.</h2>
+                    <p>상품 내역 중<br><b>원하는 상품을 선택</b><br>후 확인 버튼을 눌러주세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- E : couponModal -->
+
+    <!-- S : couponModal  -->
+    <div id="couponModal02" class="modal-wrap coupon-modal active">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">쿠폰사용 안내</h2>
+                    <button class="btn-modal-close">
+                        <img src="img/ico/i-x.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/product.png" alt="">
+                    <h1>보타닉 바디워시</h1>
+                    <h3>010-2222-2222 님의 쿠폰이 사용되었습니다.</h3>
+                    <h6>화면을 닫지 마시고 직원이나 카운터에 말씀하세요.<br>쿠폰 사용 여부에 대한 확인이 필요합니다.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- E : couponModal -->
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>

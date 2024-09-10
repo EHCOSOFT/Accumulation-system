@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,viewport-fit=cover,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>웹적립시스템</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content-wrap">
+            <div class="top">
+                <div class="left w-6">
+                    <div class="qr-code">
+                        <h2>쿠폰 QR코드 스캔</h2>
+                        <div class="qr-code-box">
+                            <div class="qr-code-scan bg-gray"></div>
+                            <div class="qr-code-term">
+                                <p>개인정보 이용 및 약관에 동의하시면, QR코드를 인식하거나, 전화번호를 입력하시고 확인을 눌러주세요. <a href="#">(개인정보 이용약관 전문
+                                        보기)</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right w-4 bg-gray p-0">
+                    <div class="coupon">
+                        <h3>현 가맹점에서는 사용이 <span class="red">불가능</span> 합니다.</h3>
+                        <div class="coupon-box">
+                            <h6>[할인]컷트 할인 쿠폰</h6>
+                            <div class="coupon-item">
+                                <h5>50%</h5>
+                                <p>[할인]컷트 할인쿠폰</p>
+                            </div>
+                            <div class="coupon-info">
+                                <p>유효기간 : 2024/01/23 ~ 2024/01/23</p>
+                                <h4>010-1234-5678</h4>
+                            </div>
+                        </div>
+                        <h4>사용 가능 매장 : <span>사당, 봉천점</span></h4>
+                        <h2>확인 버튼을 눌러 처음화면으로 이동합니다.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li class="horizontal">
+                        <div class="left horizontal g-4">
+                            <img src="img/logo.svg" alt="" class="bot-logo">
+                            <h2>디지털미디어시티역 1호점</h2>
+                        </div>
+                        <div class="right">
+                            <div class="time-group">
+                                <h2>오후 6:12</h2>
+                                <p>2023년 12월 12일</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <dl>
+                                <dt><img src="img/ico/i-point-search.svg" alt=""></dt>
+                                <dd>확인</dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- S : adminModal  -->
+    <div id="adminModal" class="modal-wrap admin-modal">
+        <div class="modal-inner">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">관리자 기능 바로가기</h2>
+                    <button class="btn-modal-close">
+                        <img src="img/ico/i-x.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-md btn-primary">가맹점 관리자 사이트 접속</button>
+                    <button type="button" class="btn btn-md btn-primary">고객 전화번호 변경 신청</button>
+                    <button type="button" class="btn btn-md btn-primary">직접 적립 취소</button>
+                    <button type="button" class="btn btn-md btn-primary">본사 상담 관리</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- E : adminModal -->
+
+    <script src="js/common.js"></script>
+</body>
+
+</html>
